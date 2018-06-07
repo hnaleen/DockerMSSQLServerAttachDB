@@ -1,5 +1,5 @@
 # Using MS SQL server windows base image
-FROM microsoft/mssql-server-windows-express
+FROM microsoft/mssql-server-windows-developer
  
 # Create directoty for database files
 RUN powershell -Command "mkdir C:\\SQLServer"
